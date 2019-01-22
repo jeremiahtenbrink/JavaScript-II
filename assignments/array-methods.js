@@ -116,4 +116,7 @@ console.log(smallShirts);
 
 // Problem 3
 // list everyone that donated more than 100$
-
+const bigDonators = runners.filter(function (runner){
+	return runner.donation > 100;
+});
+console.log(bigDonators);
